@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.write("# cbw LangChain Tutorial!👋") 
 
-st.sidebar.success("Select a demo above.")
+st.sidebar.success("아래에 있는 데모 선택")
 st.sidebar.markdown(""" - [LangChain Introduction](https://python.langchain.com/docs/get_started/introduction) """)
 st.sidebar.markdown(""" - [LangChain Installation](https://python.langchain.com/docs/get_started/installation) """)
 st.sidebar.markdown(""" - [LangChain Security](https://python.langchain.com/docs/security) """)
