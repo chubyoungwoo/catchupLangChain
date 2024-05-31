@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# cbw LangChain Tutorial!👋") 
+st.write("# cbw https 적용 LangChain Tutorial!👋") 
 
 st.sidebar.success("아래에 있는 데모 선택")
 st.sidebar.markdown(""" - [LangChain Introduction](https://python.langchain.com/docs/get_started/introduction) """)

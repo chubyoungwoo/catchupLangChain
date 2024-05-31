@@ -89,7 +89,13 @@ sudo service nginx restart
 ## ssl 적용후 브라우저 접속
 https://invako.gpt9.kr/
 
+## Streamlit 서버실행 명령어
+python -m streamlit run --server.runOnSave True --server.address 0.0.0.0 main.py
 
+# 백그라운드 실행
+nohup python -m streamlit run --server.runOnSave True --server.address 0.0.0.0 main.py &
 
-
+## 백그라운 실행 확인
+ps -ef|grep streamlit
+kill -9 168144
 
